@@ -33,3 +33,9 @@ Start
 (6) Deploy smart contract
 • 7:08:00
 • brownie run scripts/deploy_lottery.py
+
+(7) Testing of scripts on dev chain & live chain
+• 7:48:00
+• $ brownie test -k test_get_entrance_fee --network rinkeby
+• $ brownie test -k test_can_pick_winner --network rinkeby -s
+• note sometimes to run on live testnet in .env I have to remove "export"
