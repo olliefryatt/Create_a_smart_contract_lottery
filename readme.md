@@ -39,3 +39,5 @@ Start
 • $ brownie test -k test_get_entrance_fee --network rinkeby
 • $ brownie test -k test_can_pick_winner --network rinkeby -s
 • note sometimes to run on live testnet in .env I have to remove "export"
+
+Script working on dev & live test net
